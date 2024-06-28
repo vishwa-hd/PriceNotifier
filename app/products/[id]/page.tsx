@@ -175,9 +175,9 @@ const ProductDetails = async ({ params: { id } }: Props) => {
             height={22}
           />
 
-          <Link href="https://r.search.yahoo.com/rdclks/dWU9MGdxa2txZGo2cjd0ZCZ1dD0xNzE4NDYwMzMzMjIwJnVvPTgyNjY5ODk3NzExMDUwJmx0PTImcz0xJmVzPTd1WFpwR0pBRTdpZVNvLm44a0dpUWFXQkIzWDBWWHJtUGVkTnA1WU5zVFVJblB2X2pXT2NCYUdIVi5VcXcwdnpfTUNUd3BFTXBfOUZ2US0t/RV=2/RE=1721052333/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8dH7en71XNmro0OlYqPb2FzVUCUySGzU0_Kalna7NT5d3XgLnTZVZVb3qnvVV_aV-OLft_RVt20D38qQ4rn_4V2lFHAj4mb6xgqJrkpjlLB_XkWwAE-dk6pr3yDVpNzTLXFfLxPD1T_kc3nEQmdkkdU8W1R923Db_l7aFfd7ms0tDPGKGWOyssNa16xr36_uBLZj7Iw%26u%3daHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmluJTJmcyUyZiUzZmllJTNkVVRGOCUyNmtleXdvcmRzJTNkYW1hem9uJTJicHJpbWUlMjZpbmRleCUzZGFwcyUyNnRhZyUzZG1zbmRlc2tzdGRpbi0yMSUyNnJlZiUzZHBkX3NsX2Y2d2YxZm41OF9iJTI2YWRncnBpZCUzZDEzMjI3MTQxMDE3MTQ2NjUlMjZodmFkaWQlM2Q4MjY2OTg5NzcxMTA1MCUyNmh2bmV0dyUzZG8lMjZodnFtdCUzZGIlMjZodmJtdCUzZGJiJTI2aHZkZXYlM2RjJTI2aHZsb2NpbnQlM2QlMjZodmxvY3BoeSUzZDE0OTQxMiUyNmh2dGFyZ2lkJTNka3dkLTgyNjcwNTE4NTE3ODkzJTNhbG9jLTkwJTI2aHlkYWRjciUzZDU2MjFfMjM3NzI3OSUyNm1zY2xraWQlM2RkZGU5MzliMzAzMWIxYjRjNTQ1MjVmZGU5Y2I2ODI3Zg%26rlid%3ddde939b3031b1b4c54525fde9cb6827f/RK=2/RS=Ta9EY11pgqC4vkLt2aVu4IRq2qs-;_ylt=AwrKGRKtn21mKwQAYEa7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw" className='flex items-center gap-1'>
-            Buy Now
-          </Link>
+          <a href="${product.url}" target="_blank" rel="noopener noreferrer">
+            buy it now
+          </a>
         </button>
       </div>
 
