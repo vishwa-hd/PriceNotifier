@@ -30,7 +30,7 @@ const Home = async () => {
             </h1>
 
             <p className="mt-6">
-              Powerful, self-serve product and growth analytics to help you convert, engage, and retain more.
+            PriceNotifier is a FREE Amazon price tracker that monitors prices at Amazon and helps you find great deals
             </p>
 
             <Searchbar />

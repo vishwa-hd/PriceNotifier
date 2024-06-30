@@ -1,4 +1,3 @@
-
 import Modal from "@/components/Modal";
 import PriceInfoCard from "@/components/PriceInfoCard";
 import ProductCard from "@/components/ProductCard";
@@ -175,9 +174,13 @@ const ProductDetails = async ({ params: { id } }: Props) => {
             height={22}
           />
 
-          <a href="${product.url}" target="_blank" rel="noopener noreferrer">
-            buy it now
-          </a>
+            <Link
+                href={product.url}
+                target="_blank"
+                className="text-base text-black opacity-50"
+              >
+             <span className="text-white">Buy Now</span>
+          </Link>
         </button>
       </div>
 
